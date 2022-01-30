@@ -1,4 +1,4 @@
-D:\opt\conda\envs\dl\python.exe D:/workspace/CATL-line/main.py --n_iters=100000 --device=cuda --base_dir=./datasets/images --indices=2,3,4,5,6,10 --batch_size=1 --num_workers=1 --optimizer=Adam --loss=MSE --lr=0.00005 --info_interval=100
+main.py --n_iters=100000 --device=cuda --base_dir=./datasets/images --indices=2,3,4,5,6,10 --batch_size=1 --num_workers=1 --optimizer=Adam --loss=MSE --lr=0.00005 --info_interval=100
 [2022-01-30 23:06:45] - [iter:    100] loss: 0.00562950 label: (112, 140) pred: (108, 113) delta(pixel): 31
 [2022-01-30 23:06:47] - [iter:    200] loss: 0.00670464 label: (127, 143) pred: (109, 119) delta(pixel): 41
 [2022-01-30 23:06:49] - [iter:    300] loss: 0.00497482 label: (78, 125) pred: (103, 121) delta(pixel): 29
