@@ -28,8 +28,8 @@ train_arg.add_argument('--loss', type=str, default='MSE')
 train_arg.add_argument('--lr', type=float, default=0.0001)
 
 train_arg.add_argument('--info_interval', type=int, default=100)
-train_arg.add_argument('--save_image_interval', type=int, default=100)
 train_arg.add_argument('--save_model_interval', type=int, default=100)
+train_arg.add_argument('--save_model_path', type=str, default="./result/best.ckpt")
 
 
 def get_config():

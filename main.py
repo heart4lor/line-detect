@@ -49,5 +49,7 @@ if __name__ == '__main__':
                   "label:", (int(label.data[0][0].item()*256), int(label.data[0][1].item()*256)),
                   "pred:", (int(pred.data[0][0].item()*256), int(pred.data[0][1].item()*256)),
                   "delta(pixel):", int(delta.item()*256))
+        if cur_iter % config.save_model_interval == 0:
+            torch.save(net.state_dict(), config.save_model_path)
         loss.backward()
         optimizer.step()
