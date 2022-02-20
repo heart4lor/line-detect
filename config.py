@@ -29,7 +29,7 @@ train_arg.add_argument('--lr', type=float, default=0.0001)
 
 train_arg.add_argument('--info_interval', type=int, default=100)
 train_arg.add_argument('--save_model_interval', type=int, default=100)
-train_arg.add_argument('--save_model_path', type=str, default="./result/6,10.ckpt")
+train_arg.add_argument('--save_model_path', type=str, default="./result/14.ckpt")
 
 
 def get_config():

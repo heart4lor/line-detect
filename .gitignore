@@ -1,3 +1,5 @@
 .idea
 __pycache__
 *.bmp
+模糊线检测val
+.DS_Store
